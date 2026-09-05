@@ -73,8 +73,8 @@ local guiTab = window:CreateTab({ Name = "Gui", Icon = 93364949241311 })
 
 guiTab:CreateSection({ Name = "Guis" })
 
-guiTab:CreateButton({ Name = "Coolkid Gui V1", Callback = function() 
-    loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-c00lkidds-op-trolling-gui-of-nds-30335%22))("))()
+guiTab:CreateButton({ Name = "Coolkid Gui V1", Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-c00lkidds-op-trolling-gui-of-nds-30335"))()
 end })
 
 local hubsTab = window:CreateTab({ Name = "Hubs", Icon = 93364949241311 })
