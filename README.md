@@ -6,7 +6,7 @@ local window = Rayfield:CreateWindow({
     sidebarLayout = true,
  })   
 
-local homeTab = window:CreateTab({ Name = "Home", Icon = 93364949241311 })
+local homeTab = window:CreateTab({ Name = "Home", Icon = 0 })
 
 homeTab:CreateSection({ Name = "Featured" })
 
