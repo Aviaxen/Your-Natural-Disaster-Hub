@@ -3,13 +3,8 @@ local Rayfield = loadstring(game:HttpGet("https://sirius.menu/gen2"))()
 local window = Rayfield:CreateWindow({ 
     Name = "Your Natural Disaster Hub", 
     Subtitle = "By Inky", 
-    Theme = "amethyst", 
-    Configuration = { 
-        AutoSave = true, 
-        AutoLoad = true, 
-        FileName = "Your Natural Disaster Hub" 
-    } 
-})
+    sidebarLayout = true,
+ })   
 
 local homeTab = window:CreateTab({ Name = "Home", Icon = 93364949241311 })
 
@@ -45,7 +40,7 @@ homeTab:CreateSlider({
     end 
 })
 
-local scriptsTab = window:CreateTab({ Name = "Scripts", Icon = 93364949241311 })
+local scriptsTab = window:CreateTab({ Name = "Scripts", Icon = 0 })
 
 scriptsTab:CreateSection({ Name = "Scripts" })
 
@@ -57,7 +52,7 @@ scriptsTab:CreateButton({ Name = "Fe Fake Vr", Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/rizz65667-svg/FeVr/refs/heads/main/Fe%20vr"))()
 end })
 
-local toolsTab = window:CreateTab({ Name = "Tools", Icon = 93364949241311 })
+local toolsTab = window:CreateTab({ Name = "Tools", Icon = 0 })
 
 toolsTab:CreateSection({ Name = "Tools" })
 
@@ -69,7 +64,7 @@ toolsTab:CreateButton({ Name = "Fly 2", Callback = function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-script-v3-16742"))() 
 end })
 
-local guiTab = window:CreateTab({ Name = "Gui", Icon = 93364949241311 })
+local guiTab = window:CreateTab({ Name = "Gui", Icon = 0 })
 
 guiTab:CreateSection({ Name = "Guis" })
 
@@ -77,7 +72,7 @@ guiTab:CreateButton({ Name = "Coolkid Gui V1", Callback = function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-c00lkidds-op-trolling-gui-of-nds-30335"))()
 end })
 
-local hubsTab = window:CreateTab({ Name = "Hubs", Icon = 93364949241311 })
+local hubsTab = window:CreateTab({ Name = "Hubs", Icon = 0 })
 
 hubsTab:CreateSection({ Name = "Hubs" })
 
@@ -89,7 +84,7 @@ hubsTab:CreateButton({ Name = "Ps hub", Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucas047rds/Disaster-Hub/refs/heads/main/README.md"))() 
 end })
 
-local trollingTab = window:CreateTab({ Name = "Trolling", Icon = 93364949241311 })
+local trollingTab = window:CreateTab({ Name = "Trolling", Icon = 0 })
 
 trollingTab:CreateSection({ Name = "Trolling" })
 
